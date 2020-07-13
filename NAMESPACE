@@ -1,0 +1,17 @@
+export(bdgraph.helper)
+export(bdgraph.load)
+export(dic_calc)
+export(log.lik.loo)
+export(link)
+export(cond)
+export(plot.cond)
+importFrom("grDevices", "adjustcolor", "dev.new")
+importFrom("graphics", "abline", "grid", "legend", "lines", "matplot",
+             "par", "points", "polygon", "text", "title")
+importFrom("stats", "acf", "as.formula", "cor.test", "cov2cor", "ecdf",
+             "median", "model.frame", "pnorm", "qnorm", "quantile",
+             "rbinom", "reformulate", "resid", "rnorm", "runif", "sd",
+             "smooth.spline", "toeplitz", "var")
+importFrom("utils", "data", "flush.console", "object.size",
+             "read.table")
+useDynLib(bdgraphStudy,.registration = TRUE)

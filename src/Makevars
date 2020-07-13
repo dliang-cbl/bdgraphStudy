@@ -1,0 +1,10 @@
+CXX_STD = CXX11
+PKG_CPPFLAGS = -I./ -Iinclude -DSTATIC_BUILD
+PKG_LIBS = $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
+
+#clean after building
+all: $(SHLIB) clean
+
+clean: $(SHLIB)
+	$(RM) *.o 
+

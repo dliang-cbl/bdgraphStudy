@@ -1,0 +1,13 @@
+Package: bdgraphStudy
+Type: Package
+Title: Gaussian Graphical Modeling detail 
+Version: 0.0.1
+Author: Dong Liang 
+Maintainer: Dong Liang <dliang@umces.edu>
+Description: Gaussian Graphical Modeling detail for the manuscript titled
+    Ranking ecosystem impacts on Chesapeake Bay blue crab (Callinectes sapidus) using empirical Gaussian Graphical Models
+License: GPL-3
+Depends: parallel,R (>= 2.10)
+Imports: abind,coda
+Encoding: UTF-8
+LazyData: true
